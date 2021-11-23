@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <title>Mini Apps1 - Tic Tac Toe</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <h1>Tic Tac Toe</h1>
+  <h2 id="message">Welcome to the game!</h2>
+
+  <div class="game">
+    <table id="gameBoard">
+      <tr>
+        <td id="0" class="cell"></td>
+        <td id="1" class="cell"></td>
+        <td id="2" class="cell"></td>
+      </tr>
+      <tr>
+        <td id="3" class="cell"></td>
+        <td id="4" class="cell"></td>
+        <td id="5" class="cell"></td>
+      </tr>
+      <tr>
+        <td id="6" class="cell"></td>
+        <td id="7" class="cell"></td>
+        <td id="8" class="cell"></td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="scoreboard">
+    <table id="scorecard">
+      <th style="text-align: center">Game Score</th>
+      <tr>
+        <td>Player 'X'</td>
+        <td>Player 'O'</td>
+      </tr>
+      <tr>
+        <td id="Xscore">0</td>
+        <td id="Oscore">0</td>
+      </tr>
+    </table>
+  </div>
+
+  <div>
+    <br>
+    <button id="newGame">Start New Game</button>
+  </div>
+</body>
+
+<script src="./app.js"></script>
+
+</html>
